@@ -9,5 +9,6 @@ Hello, this is my first buiness website, here you will see I have created a gym 
 # Software Used
 - HTML/CSS
 - Bootstrap v5.3
+# WIRE FRAME
 
 HTML and CSS assignment (small business website)
