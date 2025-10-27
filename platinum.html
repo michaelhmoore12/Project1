@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Platinum Membership</title>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Pridi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+ 
 </head>
 <body>
      <nav class="navbar navbar-dark bg-dark fixed-top">
@@ -52,46 +53,50 @@
         </div>
     </div>
     </nav>
-    <br>
-    <br>
     <main>
         <br>
-        <h1>Memberships</h1>
-        <div class="container">
-                <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./card1.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Silver Pkg. $29.99 per month</h5>
-                            <p class="card-text">Includes full access to all gym ammenities. - massage chairs, sauna, and tanning bed - Pool & Hot Tub during hours- Free body scan on sign-up. </p>
-                            <a href="./silver.html" class="btn btn-primary">Sign up Silver</a>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./card2.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Gold Pkg. $39.99 per month</h5>
-                            <p class="card-text">Includes full access to all gym ammenities. - massage chairs, sauna, and tanning bed - Pool & Hot Tub during hours- Free body scan on sign-up.</p>
-                            <a href="./gold.html" class="btn btn-primary">Sign up Gold</a>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./card3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Platinum Pkg. $59.99 per month</h5>
-                            <p class="card-text">Includes full access to all gym ammenities. - massage chairs, sauna, and tanning bed - Pool & Hot Tub during hours- Free body scan on sign-up. </p>
-                            <a href="./platinum.html" class="btn btn-primary">Sign up Platinum</a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
+        <br>
+        <br>
+        <h1>Platinum Membership</h1>
+        <form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity" placeholder="City">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>Tennessee</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip" placeholder="Zip">
+  </div>
+  <br>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+    <button type="submit" class="btn btn-primary">Create Account</button>
+  </div>
+</form>
+    
     </main>
     <footer>
         <div class="container-fluid">
@@ -116,6 +121,6 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
