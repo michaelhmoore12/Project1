@@ -16,7 +16,10 @@ Hello, this is my first buiness website, here you will see I have created a gym 
 - Bootstrap v5.3
 - Google Fonts
 # WIRE FRAME
+# Main Page
 ![alt text](./images/WIREFRAME1.jpg)
+# Membership Page
 ![alt text](./images/WIREFRAME.jpeg)
+# Sign-Up Page
 ![alt text](./images/WIREFRAM2.jpg)
 HTML and CSS assignment (small business website)
