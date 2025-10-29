@@ -1,7 +1,7 @@
 # Project1 
 # Developer 
 Michael Moore 
-[I'm an inline-style link](https://www.linkedin.com/in/michael-moore-b0b769385/)
+[LINKEDIN](https://www.linkedin.com/in/michael-moore-b0b769385/)
 # Evolve 360 Fitness
 Hello, this is my first buiness website, here you will see I have created a gym website names Evolve 360 Fitness. This website shows a main home page with other pages such as, contact information, sign-up , memberships, locations, & amenities. Wanted to make this website very user friendly, with easy access.
 # User Stories
@@ -18,9 +18,9 @@ Hello, this is my first buiness website, here you will see I have created a gym 
 - Google Fonts
 # WIRE FRAME
 # Main Page
-![alt text](./images/WIREFRAME1.jpg)
+![wireframe](./images/WIREFRAME1.jpg)
 # Membership Page
-![alt text](./images/WIREFRAME.jpeg)
+![wireframe](./images/WIREFRAME.jpeg)
 # Sign-Up Page
-![alt text](./images/WIREFRAM2.jpg)
+![wireframe](./images/WIREFRAM2.jpg)
 HTML and CSS assignment (small business website)
