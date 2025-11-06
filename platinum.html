@@ -59,22 +59,22 @@
     <main>
       <h1>Platinum</h1>
       <h1>Platinum Membership</h1>
-             <form class="row g-3" method="get" action="./submitted.html">
+      <form class="row g-3" method="get" action="./submitted.html">
         <div class="col-md-6">
           <label for="Email" class="form-label">Email</label>
-          <input type="email" class="form-control" id="email" placeholder="you@example.com" required >
+          <input type="email" class="form-control" name="email" id="email" placeholder="you@example.com" required >
         </div>
         <div class="col-md-6">
           <label for="Password" class="form-label">Password</label>
-          <input type="password" class="form-control" id="password" placeholder="Password" required>
+          <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
         </div>
         <div class="col-12">
           <label for="Address" class="form-label">Address</label>
-          <input type="Street-Name" class="form-control" id="Address" placeholder="1234 Main St" required>
+          <input type="Street-Name" name="address" class="form-control" id="Address" placeholder="1234 Main St" required>
         </div>
         <div class="col-md-6">
           <label for="City" class="form-label">City</label>
-          <input type="city-name" class="form-control" id="city" placeholder="City" required>
+          <input type="city-name" name="city" class="form-control" id="city" placeholder="City" required>
         </div>
         <div class="col-md-4">
           <label for="State" class="form-label">State</label>
@@ -94,7 +94,7 @@
         </div>
         <div class="col-md-2">
           <label for="Zip" class="form-label">Zip</label>
-          <input type="zip-code" class="form-control" id="Zip" placeholder="Zip" required>
+          <input type="zip-code" name="zip" class="form-control" id="Zip" placeholder="Zip" required>
         </div>
         <br>
         <div class="col-12">
